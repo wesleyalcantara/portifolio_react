@@ -24,8 +24,8 @@ function MainHome () {
                     <img src={githubImage} alt="GitHub" />
                     GitHub
                 </a>
-
             </div>
+            <br/><br/><br/>
         </section>
         <img className="apresentacao__imagem" src={fotoImage} alt="img-Wesley" />
     </main>

@@ -6,7 +6,8 @@ function Header () {
         <header className="cabecalho">
             <nav className="cabecalho__menu">
                 <Link className="cabecalho__menu__link" to="/">Home</Link>
-                <Link className="cabecalho__menu__link" to="/sobre">Sobre mim</Link>
+                <Link className="cabecalho__menu__link" to="/sobre">Sobre</Link>
+                <Link className="cabecalho__menu__link" to="https://bucketwba.s3.sa-east-1.amazonaws.com/Curr%C3%ADculo+Wesley.pdf" target="_blank">Currículo</Link>
             </nav>
         </header>
     )

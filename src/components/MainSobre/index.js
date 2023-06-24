@@ -38,11 +38,12 @@ function MainSobre () {
                 <div className="apresentacao__links__about">
                     <h2 className="apresentacao__links__subtitulo">Acesse as minhas redes:</h2>
                     <a className="apresentacao__links__navegacao" href="https://www.linkedin.com/in/wesley-alcantara-58148020b/" target="_blank" rel="noopener noreferrer">
-                        <img src={linkedinImage} alt="Icone do LinkedIn"/>
+                        <img src={linkedinImage} alt="LinkedIn" />
                         LinkedIn
                     </a>
+
                     <a className="apresentacao__links__navegacao" href="https://github.com/wesleyalcantara" target="_blank" rel="noopener noreferrer">
-                        <img src={githubImage} alt="Icone do GitHub"/>
+                        <img src={githubImage} alt="GitHub" />
                         GitHub
                     </a>
                 </div>

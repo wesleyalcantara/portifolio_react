@@ -7,7 +7,7 @@ function Header () {
             <nav className="cabecalho__menu">
                 <Link className="cabecalho__menu__link" to="/">Home</Link>
                 <Link className="cabecalho__menu__link" to="/sobre">Sobre</Link>
-                <Link className="cabecalho__menu__link" to="https://github.com/wesleyalcantara/curriculo_wesley/files/11857891/CurriculoWesley.pdf" target="_blank">Baixar Currículo</Link>
+                <Link className="cabecalho__menu__link" to="https://github.com/wesleyalcantara/curriculo_wesley/archive/refs/heads/main.zip" target="_blank">Baixar Currículo</Link>
             </nav>
         </header>
     )

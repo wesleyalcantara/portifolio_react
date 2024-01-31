@@ -26,9 +26,9 @@ function MainSobre () {
                 <br/>
                 <div style={{display: 'inline_block'}}><br/>
                     <img align="center" alt="img-JavaScript" height="40" width="52" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" target="_blank"/>
+                    <img align="center" alt="img-Python" height="40" width="52" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" target="_blank"/>
                     <img align="center" alt="img-React" height="40" width="52" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" target="_blank"/>
                     <img align="center" alt="img-Node" height="40" width="52" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" target="_blank"/>
-                    <img align="center" alt="img-Python" height="40" width="52" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" target="_blank"/>
                     <img align="center" alt="img-vscode" height="40" width="52" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" target="_blank"/>
                     <img align="center" alt="img-MySQL" height="40" width="52" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" target="_blank"/>
                 </div>

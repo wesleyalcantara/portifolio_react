@@ -7,6 +7,7 @@ function Header () {
             <nav className="cabecalho__menu">
                 <Link className="cabecalho__menu__link" to="/">Home</Link>
                 <Link className="cabecalho__menu__link" to="/sobre">Sobre</Link>
+                <Link className="cabecalho__menu__link" to="https://wesleytimeline.vercel.app/" target="blank">Timeline</Link>
             </nav>
         </header>
     )

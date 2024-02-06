@@ -12,13 +12,13 @@ export default Footer; */
 
 export default function Footer() {
     return (
-    <div className="relative mt-auto w-full bg-neutral-900 text-neutral-200 h-30 gap-[40px] sm:gap-[200px] md:gap-[400px] lg:gap-[500px] flex items-start justify-center">
-        <div className="flex-row mb-8">
-          <h3 className="absolute justify-center font-bold mt-[15px]">
+    <div className="footer-container">
+        <div className="footer-contact">
+          <h3 className="contact-title">
             Contatos
           </h3>
           <p>
-            <ul className="mb-[20px] mt-[40px] gap-3">
+            <ul className="contact-info">
               <li>
                 Email: wesleybaadm@gmail.com
               </li>
@@ -28,30 +28,26 @@ export default function Footer() {
             </ul>
           </p>
         </div>
-        <div className="flex flex-row justify-start mt-2 gap-3">
-            <div className="flex flex-row mt-[40px] mb-[20px] gap-3">
-              <h3 className="absolute justify-center font-bold mt-[-35px]">
-                Resdes Sociais
-              </h3>
-              <a href="https://github.com/wesleyalcantara">
-                <Icon name="github" />
-              </a>
-              <a href="https://www.linkedin.com/in/wesley-batista-alcantara">
-                <Icon name="linkedin" />
-              </a>
-              <a href="https://www.instagram.com/wesley.alcantara_">
-                <Icon name="instagram" />
-              </a>
+        <div class="social-links">
+            <div class="social-links-container">
+                <h3>Redes Sociais</h3>
+                <a href="https://github.com/wesleyalcantara">
+                    <Icon name="github" />
+                </a>
+                <a href="https://www.linkedin.com/in/wesley-batista-alcantara">
+                    <Icon name="linkedin" />
+                </a>
+                <a href="https://www.instagram.com/wesley.alcantara_">
+                    <Icon name="instagram" />
+                </a>
             </div>
         </div>
-        <div className="absolute bottom-0 flex justify-start px-px w-full bg-neutral-800">
-          <p>
-            <ul >
-              <li className="px-3">
-                Desenvolvido por: Wesley Batista Alcantara
-              </li>
-            </ul>
-          </p>
+        <div class="footer-info">
+            <p>
+                <ul>
+                    <li>Desenvolvido por: Wesley Batista Alcantara</li>
+                </ul>
+            </p>
         </div>
     </div>
     );

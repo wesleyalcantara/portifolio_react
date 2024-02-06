@@ -14,7 +14,9 @@ function MainHome () {
                 Olá! Sou Wesley Alcantara, desenvolvedor Full-Stack com especialidade em  Node.js, React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
             </p>
             <div className="apresentacao__links">
-                <h2 className="apresentacao__links__subtitulo">Acesse as minhas redes:</h2>
+                <h2 className="apresentacao__links__subtitulo">
+                    Acesse as minhas redes:
+                </h2>
                 <a className="apresentacao__links__navegacao" href="https://www.linkedin.com/in/wesley-batista-alcantara" target="_blank" rel="noopener noreferrer">
                     <img src={linkedinImage} alt="LinkedIn" />
                     LinkedIn

@@ -34,7 +34,7 @@ function MainSobre () {
                 </div>
                 <br/>
                 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wesleyalcantara&layout=compact&langs_count=7&theme=dracula" alt="Imagem com amostra de utilização das linguagens de programação"/>
-                <br/><br/><br/><br/>
+                <br/><br/><br/><br/><br/>
                 <div className="apresentacao__links">
                     <h2 className="apresentacao__links__subtitulo">
                         Acesse as minhas redes:

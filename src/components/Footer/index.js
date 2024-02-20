@@ -1,15 +1,6 @@
 import "./style.css"
 import Icon from "../Icon/Icon.jsx";
 
-/* function Footer () {
-    return (
-        <footer class="rodape">Desenvolvido por Wesley Alcantara</footer>
-    )
-}
-
-export default Footer; */
-
-
 export default function Footer() {
     return (
     <div className="footer-container">

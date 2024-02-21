@@ -21,12 +21,12 @@
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 2.25rem;
+    font-size: 3.25rem;
     font-family: var(--fonte-primaria);
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-family: var(--fonte-secundaria);
     font-weight: 400;
 }

@@ -13,73 +13,73 @@
     color: #d1d5db; 
     height: 100%;    
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     font-size: 14px;
   }
 
-.footer-contact{
+.footer-container-contact{
     display: flex;
     flex-direction: row;
-    margin-bottom: 1rem;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    gap: 8px; 
   }
 
 .contact-title {
-    position: absolute;
+    position: relative;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin-top: 8px;
   }
 
   .contact-info {
-    margin-bottom: 20px;
-    margin-top: 40px;
+    position: relative;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
   }
   
   .contact-info ul {
-    list-style-type: none; /* Removendo os marcadores padrão da lista */
-    padding: 0; /* Removendo o preenchimento padrão da lista */
+    list-style-type: none;
+    gap: 7px;
   }
   
   .contact-info li {
-    margin-bottom: 4px; /* Espaçamento entre os itens da lista */
-  }
-
-  .social-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-top: 2px; 
+    margin-bottom: 7px; 
   }
   
   .social-links-container {
     display: flex;
-    flex-direction: row;
-    margin-top: 40px; 
-    margin-bottom: 20px; 
-    margin-left: 10px;
-    gap: 8px; 
+    flex-direction: column;
+    margin-top: 5px;
+    max-height: 1px;
+    gap: 8px;
   }
   
-  .social-links h3 {
-    position: absolute;
-    justify-content: center;
+  .social-links-title {
+    position: relative;
     font-weight: bold;
-    margin-top: -35px; /* ajuste conforme necessário */
+    text-align: center;
+  }
+
+  .social-links-info {
+    display: flex;
+    gap: 7px;
+    position: relative;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 7px;
   }
 
   .footer-info {
-    position:absolute;
     bottom: 0px;
     display: flex;
     justify-content: flex-start;
     padding: 1px 0px; 
     width: 100%;
-    background-color: #4b5563; /* bg-neutral-800 */
-  }
-  
-  .footer-info p {
-    margin: 0;
+    background-color: #4b5563;
   }
   
   .footer-info ul {
@@ -88,24 +88,24 @@
   }
   
   .footer-info li {
-    padding-left: 3px; 
+    padding-left: 6px; 
   }
 
   
   @media (min-width: 640px) {
-    .footer-container {
+    .footer-container-contact {
       gap: 200px;
     }
   }
   
   @media (min-width: 768px) {
-    .footer-container {
+    .footer-container-contact{
       gap: 400px;
     }
   }
   
   @media (min-width: 1024px) {
-    .footer-container {
+    .footer-container-contact {
       gap: 500px;
     }
   }

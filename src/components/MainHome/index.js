@@ -13,7 +13,7 @@ function MainHome () {
             <p className="apresentacao__conteudo__texto">
                 Olá! Sou Wesley Alcantara, desenvolvedor Full-Stack com especialidade em  Node.js, React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
             </p>
-            <br/><br/><br/>
+            <br/><br/><br/><br/>
             <div className="apresentacao__links">
                 <h2 className="apresentacao__links__subtitulo">
                     Acesse as minhas redes:
@@ -28,7 +28,7 @@ function MainHome () {
                     GitHub
                 </a>
             </div>
-            <br/><br/><br/>
+            <br/><br/><br/><br/><br/><br/>
         </section>
         <img className="apresentacao__imagem" src={fotoImage} alt="img-Wesley" />
     </main>
